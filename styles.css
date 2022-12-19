@@ -106,6 +106,14 @@ img    {
     padding-left: 42px;
 }
 
+.welcome-section > p{
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+
+}
+    
+
 /* /*seccion-de-contactos*/
 .contact-section {
     display: flex;
