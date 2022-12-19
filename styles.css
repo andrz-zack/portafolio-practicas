@@ -53,7 +53,7 @@ a {
 }
 
 img    {
-    width: 60%;
+    width: 55%;
     
 }
 
@@ -144,6 +144,11 @@ img    {
     margin: 0 auto;
     margin-bottom: 6rem
 }
+
+@media (max-width: 30.62em) {
+    .projects-section {
+      padding: 6rem 1rem;
+    }
 
     
 
