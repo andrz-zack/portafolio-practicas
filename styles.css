@@ -161,6 +161,10 @@ img    {
     border: 5px solid green
   }
 
+  .project:hover {
+    color: yellowgreen;
+  }
+
 .project-image {
     height: calc(100% - 6.8rem);
     width: 100%;
@@ -176,6 +180,19 @@ img    {
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: 2px;
+}
+
+.btn-show-all {
+    font-size: 2rem;
+    background-color: darkblue;
+    transition: background 0.3s ease-out;
+}
+
+.btn-show-all:hover {
+    background-color: turquoise;
+    transform: translateY(2px);
+    color: green;
+    font-weight: bold;
 }
 
     
